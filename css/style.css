@@ -1,0 +1,178 @@
+
+
+a, i{
+    transition: .5s;
+    text-decoration: none;
+}
+
+.secondary-color{
+    color: #555;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*Header*/
+
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#header p{
+    margin-bottom: 0;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 40px;
+    margin-right: 8px;
+}
+
+.logo-container h1, .main-image-info, .col-12 {
+    color: #988C62;
+}
+
+.logo-container img{
+    width: 40px;
+}
+
+/*Navbar*/
+
+#navbar{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a{
+    width: 80px;
+    color: #444;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: #c1b696;
+}
+
+/*Main Image*/
+
+.main-image{
+    background-image: url(/img/modelTopo\ \(2\).jpg);
+    height: 500px;
+    margin-bottom: 30px;
+    position: relative;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.main-image-info{
+    background-color: #fff;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    border-radius: 4px;
+}
+
+.main-image-info a, .gx-md-5 a {
+    text-decoration: none;
+    background-color: #988C62;
+    color: #fff;
+    padding: 7px 18px;
+}
+
+.main-image-info a:hover, .gx-md-5 a:hover{
+    background-color:  #e1dddd;
+    color:#333;
+}
+
+/*Gallery*/
+
+#img1{
+    background-image: url(/img/modelCard1.jpg);
+    border-radius: 4px;
+}
+
+#img2{
+    background-image: url(/img/modelCard2.jpg);
+    border-radius: 4px;
+}
+
+#img3{
+    background-image: url(/img/modelCard3.jpg);
+    border-radius: 4px;
+}
+
+#img4{
+    background-image: url(/img/modelCard4.jpg);
+    border-radius: 4px;
+}
+
+#img5{
+    background-image: url(/img/modelCard5.jpg);
+    border-radius: 4px;
+}
+
+#img6{
+    background-image: url(/img/modelCard6.jpg);
+    border-radius: 4px;
+}
+
+#gallery-container h1{
+    text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12{
+    margin-bottom: 50px;
+}
+
+.small-image-container{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+
+
+/*Footer*/
+
+footer{
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+#social-icons-container{
+    padding: 25px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+#social-icons-container a{
+    margin-left: .4rem;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px;
+}
+
+a:hover i{
+    color: #c1b696;
+}
